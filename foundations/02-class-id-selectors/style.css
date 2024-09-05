@@ -1,0 +1,19 @@
+.class {
+    background-color: lightcoral;
+    font-size: 18px;
+}
+
+#id1 {
+    font-size: 30px;
+    color: blue
+}
+
+#id2 {
+    background-color: greenyellow;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.class.cooler {
+    font-size: 20px;
+}
