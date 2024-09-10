@@ -9,9 +9,31 @@ body {
 }
 
 .header {
+  display: flex;
+  flex-direction: row;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  gap: 16px;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+
+}
+
+.noti-profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+
+
 }
 
 .profile-image {
@@ -45,4 +67,10 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 50px;
 }
